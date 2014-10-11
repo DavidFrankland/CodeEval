@@ -1,20 +1,27 @@
 ﻿using System;
 
-namespace PrimePalindrome
+namespace SumOfPrimes
 {
     class Program
     {
         static void Main(string[] args)
         {
-            for (int i = 999; i > 0; i--)
+            int total = 0;
+            int count = 0;
+            int test = 2;
+
+            while (count < 1000) 
             {
-                int firstDigit = ((i / 100) % 10);
-                int lastDigit = i % 10;
-                if (firstDigit != lastDigit) continue;
-                if (!IsPrime(i)) continue;
-                Console.WriteLine(i);
-                break;
+                if (IsPrime(test))
+                {
+                    total += test;
+                    count++;
+                }
+
+                test++;
             }
+
+            Console.WriteLine(total);
             Console.ReadKey();
         }
 

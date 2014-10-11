@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackImplementation", "Stac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindAWriter", "FindAWriter\FindAWriter.csproj", "{8E777E13-BC35-41C3-9A43-5DF0E2541AC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonRepeatedCharacter", "FirstNonRepeatedCharacter\FirstNonRepeatedCharacter.csproj", "{83D92CB3-59A0-4E00-AB67-2D3001F279B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfPrimes", "SumOfPrimes\SumOfPrimes.csproj", "{82ED6CAE-9888-4198-9692-434B3C5D0AA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,6 +167,14 @@ Global
 		{8E777E13-BC35-41C3-9A43-5DF0E2541AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E777E13-BC35-41C3-9A43-5DF0E2541AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E777E13-BC35-41C3-9A43-5DF0E2541AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83D92CB3-59A0-4E00-AB67-2D3001F279B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83D92CB3-59A0-4E00-AB67-2D3001F279B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83D92CB3-59A0-4E00-AB67-2D3001F279B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83D92CB3-59A0-4E00-AB67-2D3001F279B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82ED6CAE-9888-4198-9692-434B3C5D0AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82ED6CAE-9888-4198-9692-434B3C5D0AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82ED6CAE-9888-4198-9692-434B3C5D0AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82ED6CAE-9888-4198-9692-434B3C5D0AA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
