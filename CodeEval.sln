@@ -67,6 +67,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveCharacters", "RemoveC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrailingString", "TrailingString\TrailingString.csproj", "{D09409E3-373F-4065-9DC2-BDA3CA07358F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumbers", "PrimeNumbers\PrimeNumbers.csproj", "{D700F5B1-B9F5-4196-8219-22038B7662B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigDigits", "BigDigits\BigDigits.csproj", "{027BAEE6-EAF2-41C5-8572-914B600276FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -205,6 +209,14 @@ Global
 		{D09409E3-373F-4065-9DC2-BDA3CA07358F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D09409E3-373F-4065-9DC2-BDA3CA07358F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D09409E3-373F-4065-9DC2-BDA3CA07358F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D700F5B1-B9F5-4196-8219-22038B7662B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D700F5B1-B9F5-4196-8219-22038B7662B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D700F5B1-B9F5-4196-8219-22038B7662B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D700F5B1-B9F5-4196-8219-22038B7662B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027BAEE6-EAF2-41C5-8572-914B600276FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027BAEE6-EAF2-41C5-8572-914B600276FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027BAEE6-EAF2-41C5-8572-914B600276FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027BAEE6-EAF2-41C5-8572-914B600276FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
