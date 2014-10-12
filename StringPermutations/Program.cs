@@ -22,10 +22,10 @@ namespace StringPermutations
 
         private static List<string> MyFunc(string s)
         {
-            var result = new List<string>();
-
             if (s.Length == 1) return new List<string> { s };
 
+            var result = new List<string>();
+            
             for (int i = 0; i < s.Length; i++)
             {
                 var c = s[i].ToString();
